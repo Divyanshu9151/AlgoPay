@@ -1,2 +1,2 @@
-# AlgoBrain
-AlgoBrain is an AI-driven assistant that leverages RAG to provide real-time answers to developer queries by retrieving information from Algorand documentation, GitHub discussions, and community forums.
+# AlgoPay
+AlgoPay addresses the challenge of Web3 payment adoption for online businesses by offering a solution that ensures 100% efficiency for merchants on the Algorand blockchain.
