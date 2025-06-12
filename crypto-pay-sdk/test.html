@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoPay SDK Test</title>
+</head>
+<body>
+  <h1>Test Store</h1>
+  <form action="/checkout">
+    <button type="submit" class="checkout-button">Checkout</button>
+  </form>
+
+  <!-- <script src="./dist/crypto-pay-sdk.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      CryptoPaySDK.init({
+        merchantId: "demo-merchant-123",
+        currency: "ALGO",
+        network: "testnet"
+      });
+    });
+  </script> -->
+  <script src="./dist/crypto-pay-sdk.js"></script>
+<script>
+  CryptoPaySDK.init({
+    apiKey: "MERCHANT_UNIQUE_API_KEY"
+  });
+</script>
+
+</body>
+</html>
+

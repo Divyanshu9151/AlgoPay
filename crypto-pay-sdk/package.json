@@ -1,0 +1,15 @@
+{
+  "name": "crypto-algopay-sdk",
+  "version": "1.0.1",
+  "description": "A simple SDK to enable crypto payments on websites.",
+  "main": "dist/crypto-pay-sdk.js",
+  "scripts": {
+    "build": "esbuild src/index.js --outfile=dist/crypto-pay-sdk.js --bundle --format=iife"
+  },
+  "keywords": ["crypto", "payments", "sdk"],
+  "author": "Divyanshu",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
