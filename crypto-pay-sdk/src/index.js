@@ -22,22 +22,6 @@
       this.addCryptoButton();
     },
 
-    // Example async validation method
-    // validateApiKey: async function () {
-    //   try {
-    //     const res = await fetch("https://your-server.com/validate", {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/json" },
-    //       body: JSON.stringify({ apiKey: this.apiKey })
-    //     });
-    //     const data = await res.json();
-    //     return data.valid;
-    //   } catch (error) {
-    //     console.error("CryptoPaySDK Error: API validation failed.", error);
-    //     return false;
-    //   }
-    // },
-
     addCryptoButton: function () {
       const btn = document.createElement("button");
       btn.innerText = "Pay with Crypto";
